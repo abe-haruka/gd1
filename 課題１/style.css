@@ -1,0 +1,63 @@
+.content{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    margin: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.hero{
+    background-image: url(images/bread1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: start;
+    text-align: center;
+    padding-top: 10vh;
+}
+.menu{
+    background-image: url(images/bread2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+}
+.wrapper{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 0;
+}
+.contact{
+    background-image: url(images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: start;
+}
+.sns{
+    font-size: 50px;
+    color: rgb(42, 36, 43);
+}
+/*スマホで見たときに適応されるcssメディアクエリー　→　メディアクエリーは一番下にかくこと！*/
+@media (max-width: 700px){
+    .title{
+        font-size: 4rem;
+    }
+}
+/*
+pcで見たときに適応されるcss:メディアクエリー
+@media (min-width:700px){
+    .title{
+        font-size: 7rem;
+    }
+}
+*/
