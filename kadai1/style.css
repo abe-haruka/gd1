@@ -15,22 +15,33 @@ section{
     margin: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+    color: aliceblue;
 }
 .hero{
+    /*
+    パン屋さんの背景１
     background-image: url(images/bread1.jpg);
+    */
+    background-image: url(images/brick-wall-g250b68da8_640.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     scroll-snap-align: start;
     text-align: center;
     padding-top: 10vh;
+    color: aliceblue;
 }
 .menu{
+    /*
+    パン屋さんの背景２
     background-image: url(images/bread2.jpg);
+    */
+    background-image: url(images/coffee-g0706d6b6c_640.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     scroll-snap-align: start;
     display: flex;
     align-items: center;
+    color: aliceblue;
 }
 .wrapper{
     width: 100%;
@@ -38,14 +49,19 @@ section{
     margin: 0 auto 0;
 }
 .contact{
+    /*
+    パン屋さんの背景３
     background-image: url(images/cafe.jpg);
+    */
+    background-image: url(images/coffee-ge51df25ab_640.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     scroll-snap-align: start;
 }
 .sns{
     font-size: 50px;
-    color: rgb(42, 36, 43);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /*スマホで見たときに適応されるcssメディアクエリー　→　メディアクエリーは一番下にかくこと！*/
 @media (max-width: 700px){
